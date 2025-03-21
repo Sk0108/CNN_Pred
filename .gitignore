@@ -1,0 +1,20 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*.ipynb_checkpoints
+
+# Virtual environment
+venv/
+
+# TensorFlow/Keras models
+*.h5
+*.hdf5
+
+# MacOS
+.DS_Store
+
+# Logs
+*.log
+git add .
+git commit -m "Added .gitignore with venv and model exclusions"
+git push
